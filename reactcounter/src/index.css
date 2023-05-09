@@ -1,0 +1,98 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  color: #351313;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #351313;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.btn{
+  background-color: rgb(205, 215, 228);
+}
+
+button {
+  color: rgb(13, 5, 37);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  margin: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  background-color: rgba(238, 174, 202, 0.534);
+  color: #351313;
+  box-shadow: 3px 10px #ffffff49;
+  transition: .3s ease;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+  transition: .3s ease;
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+h1 {
+  font-family: 'poppins';
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h1:hover {
+  color: #151516;
+  font-style: italic;
+  transition: .9s ease;
+
+}
+
+h1 {
+  font-size: 3.2em;
+  margin: 20px 0px;
+  line-height: 1.1;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 15px;
+}
+
+h2:hover {
+  font-style: italic;
+}
